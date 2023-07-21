@@ -90,7 +90,7 @@ const Job = ({ search }) => {
 
   return(
     <div>
-      <div id="jobListings" className='jobContainer flex items-center justify-center flex-wrap py-10 min-h-screen'>
+      <div id="jobListings" className='jobContainer flex items-center justify-center flex-wrap py-10 min-h-screen bg-[#f5fbfb]'>
         {
           filteredJobs.map(({id,title,company,desc,location,time}) => {
             return (

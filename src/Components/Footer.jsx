@@ -18,9 +18,9 @@ const Footer = () => {
           We are dedicated to helping students begin their career as hassle free as possible.
         </p>
         <div className='flex gap-5 items-center'>
-          <AiFillInstagram className='text-[25px] text-white'/>
-          <AiFillLinkedin className='text-[25px] text-white'/>
-          <AiFillFacebook className='text-[25px] text-white'/>
+          <AiFillInstagram className='cursor-pointer text-[25px] text-white'/>
+          <AiFillLinkedin className='cursor-pointer text-[25px] text-white'/>
+          <AiFillFacebook className='cursor-pointer text-[25px] text-white'/>
         
         </div>
 
